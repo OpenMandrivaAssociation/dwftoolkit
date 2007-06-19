@@ -3,7 +3,7 @@
 
 Name: dwftoolkit
 Version: 7.2.1
-Release: %mkrel 2
+Release: %mkrel 3
 License: BSD-like
 Summary: DWF Toolkit 7.2.1 provides APIs for reading and writing 3D DWF from any application
 URL: http://usa.autodesk.com/
@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: libtool
+BuildRequires: zlib-devel
 
 %description
 DWF Toolkit 7.2.1 provides APIs for reading and writing 3D DWF from any
