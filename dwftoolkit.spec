@@ -53,7 +53,7 @@ DWF Toolkit 7.2.1 static devel files
 
 %package -n %lib_dwfcore
 Group: System/Libraries
-Summary: dwfcore library
+Summary: Dwfcore library
 
 %description -n %lib_dwfcore
 dwfcore library
@@ -66,7 +66,7 @@ dwfcore library
 
 %package -n %lib_dwftk
 Group: System/Libraries
-Summary: dwftk library
+Summary: Dwftk library
 
 %description -n %lib_dwftk
 dwftk library
