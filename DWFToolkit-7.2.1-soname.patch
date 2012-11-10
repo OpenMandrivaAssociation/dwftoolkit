@@ -1,0 +1,22 @@
+--- l/develop/global/src/dwf/Makefile.am	2006-06-01 09:29:00.000000000 -0300
++++ l/develop/global/src/dwf/Makefile.am.new	2006-08-14 22:26:33.000000000 -0300
+@@ -5,7 +5,7 @@
+ 
+ lib_LTLIBRARIES =  libdwftk.la
+ 
+-libdwftk_la_LDFLAGS = -release 7.2.0
++libdwftk_la_LDFLAGS = -no-undefined -version-info 7:2:0
+ 
+ libdwftk_la_SOURCES =  Toolkit.cpp
+ 
+--- l/develop/global/src/dwfcore/Makefile.am.orig	2006-08-14 22:25:15.000000000 -0300
++++ l/develop/global/src/dwfcore/Makefile.am	2006-08-14 22:25:52.000000000 -0300
+@@ -7,7 +7,7 @@
+ 
+ lib_LTLIBRARIES =  libdwfcore.la
+ 
+-libdwfcore_la_LDFLAGS = -release 1.2.0
++libdwfcore_la_LDFLAGS = -no-undefined -version-info 1:2:0
+ 
+ libdwfcore_la_SOURCES = BufferInputStream.cpp BufferOutputStream.cpp DecompressingInputStream.cpp Exception.cpp File.cpp FileInputStream.cpp FileOutputStream.cpp MIME.cpp MonitoredInputStream.cpp Owner.cpp ThreadPool.cpp UnzippingInputStream.cpp UTF8EncodingOutputStream.cpp UUID.cpp XMLEncodingOutputStream.cpp ZipFileDescriptor.cpp ZippingOutputStream.cpp 
+ 
