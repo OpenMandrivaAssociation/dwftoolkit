@@ -6,7 +6,7 @@ Version: 7.2.1
 Release: %mkrel 5
 License: BSD-like
 Summary: DWF Toolkit 7.2.1 provides APIs for reading and writing 3D DWF from any application
-URL: http://usa.autodesk.com/
+URL: https://usa.autodesk.com/
 Source: DWFToolkit-%{version}-src.tar.gz
 Patch0: DWFToolkit-7.2.1-soname.patch
 Group: Sciences/Geosciences
