@@ -11,6 +11,8 @@ Source: DWFToolkit-%{version}-src.tar.gz
 Patch0: DWFToolkit-7.2.1-soname.patch
 Group: Sciences/Geosciences
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: libtool
